@@ -20,6 +20,28 @@ public class Arreglos {
         System.out.println(dimensionArray);
 
 
+        //arrays de varias dimensiones
+
+        int [][] arrayBidimensional = new int[2][4];
+        //o.f declaracion
+        int [] array2[] = new int [2][4];
+
+        int array2b[][] = {{0,1,2,3},{2,1,5,4},{5,4,7,8},{6,5,4,1}};
+        // o.f. int array2b [][]=new int [4][4];
+
+        System.out.println(array2b[1][2]);
+
+        //array tridimensional= array de arraybidimnensionales
+        //rray tridimensional= array que contiene array que contiene posiciones
+        int [][][] array3d ={ {{1,2},{2,4}} , {{5,4}, {8,4}} };
+        //las llaves de fuera son el contenido de las tres dimensiones
+        int [][][] array3d2= new int [2][2][2];
+
+
+        System.out.println(array3d [1][0][0]);
+        //pos del array bidimensional,
+        // pos del array dimensional dentro del array bidimensional,
+        // pos dentro del dimensional dentro del bidimensional
     }
 
 }
